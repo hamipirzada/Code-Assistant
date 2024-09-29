@@ -5,7 +5,7 @@ import gradio as gr
 url = "http://localhost:11434/api/generate"
 
 headers = {"Content-Type": "application/json"}
-###
+
 history = []
 def generate_response(prompt):
     history.append(prompt)
